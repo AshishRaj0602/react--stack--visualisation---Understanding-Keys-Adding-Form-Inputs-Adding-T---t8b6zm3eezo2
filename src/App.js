@@ -18,7 +18,7 @@ function App() {
   }
   const pop=()=>{
     if(data.length<=0){
-      alert('Stack is Empty');
+      window.alert('Stack is empty');
     }else{
       data.splice(0,1);
       setData([...data])
